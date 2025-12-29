@@ -165,7 +165,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+
+int main()
+{
+    printf("Integer literal   : %d, Size = %zu bytes\n", 10, sizeof(10));
+    printf("Float literal     : %.2f, Size = %zu bytes\n", 3.14f, sizeof(3.14f));
+    printf("Character literal : %c, Size = %zu bytes\n", 'A', sizeof('A'));
+    printf("String literal    : %s, Size = %zu bytes\n", "Hello C", sizeof("Hello C"));
+
+    return 0;
+}
+
+```
 # Output:
+<img width="536" height="284" alt="image" src="https://github.com/user-attachments/assets/2b6ef6ba-4629-424d-bc3f-cd58adae01e0" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
